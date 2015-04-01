@@ -31,9 +31,11 @@ Func Reset_3G ()
 EndFunc
 
 Func Click_oni ()
-   Send("http://www.oni.vn/J6ZP4")
+   Send("http://vn-zoom.com")
    Sleep(500)
    Send("{ENTER}")
+   Sleep(4000)
+   MouseClick("left",60,80)
    Sleep(7000)
    MouseClick("left",755,505)
    Sleep(3000)
